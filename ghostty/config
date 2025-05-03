@@ -1,0 +1,9 @@
+# Theme
+theme = catppuccin-mocha
+font-family = "JetBrains Mono Regular Regular"
+
+# Cursor
+cursor-style = block
+cursor-text = #000000
+cursor-style-blink = false
+shell-integration-features = no-cursor
