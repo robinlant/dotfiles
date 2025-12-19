@@ -1,15 +1,16 @@
 {
+    // === Start ===
+
     // Theme & UI Elements
     "workbench.colorTheme": "Pink Cat Boo",
     "workbench.iconTheme": "vscode-icons",
     "workbench.editor.showTabs": "multiple",
     "workbench.startupEditor": "none",
     "workbench.sideBar.location": "right",
+    "workbench.editor.enablePreview": false,
     "workbench.statusBar.visible": false,
     "workbench.tips.enabled": false,
     "breadcrumbs.enabled": false,
-
-    // Title Bar TODO
 
     // Editor
     "editor.minimap.enabled": false,
@@ -18,10 +19,8 @@
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "editor.scrollbar.horizontal": "hidden",
-    "editor.scrollbar.vertical": "hidden",
-    "editor.overviewRulerBorder": false,
     "editor.hideCursorInOverviewRuler": true,
-
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
 
     // Font & Lines
     "editor.lineNumbers": "relative",
@@ -35,7 +34,6 @@
                 "settings": {
                     "fontStyle": "italic",
                     "foreground": "#a6e3a1"
-
                 }
             }
         ]
@@ -46,13 +44,14 @@
     "editor.cursorStyle": "block",
 
     // Explorer
-    "explorer.compactFolders": false,
     "explorer.decorations.badges": false,
+    "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
+    "explorer.confirmPasteNative": false,
     "vsicons.presets.hideExplorerArrows": true,
     "workbench.tree.renderIndentGuides": "none",
     "workbench.tree.indent": 12,
 
-    // === End of user definden configuration ===
+    // === End ===
 }
