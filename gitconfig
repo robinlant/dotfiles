@@ -1,0 +1,14 @@
+[alias]
+        st = status
+        ci = commit
+        cim = commit -m
+        co = checkout
+        pl = pull
+        p = push
+        pt = push --tags
+        d = diff
+        br = branch
+        brl = branch --list --all
+        lg = log --pretty=format:"%C(yellow)%h\\ %C(cyan)%ad%Cred%d\\ %Creset%s%Cgreen\\ [%an]" --decorate --date=short --graph --name-status
+[core]
+        editor = vim
